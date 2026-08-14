@@ -1,0 +1,14 @@
+POST http://localhost:5085/api/users/login HTTP/1.1
+Content-Type: application/json
+{
+    "Email": "Lukemwen@hotmail.com",
+    "Password": "password123"
+}
+
+POST http://localhost:5085/api/users/register HTTP/1.1
+Content-Type: application/json
+{
+    "Username": "LukeM",
+    "Email": "Lukemwen@hotmail.com",
+    "Password": "Password123"
+}
